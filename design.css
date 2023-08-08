@@ -1,0 +1,53 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mg{
+    font-family: "Roboto",  sans-serif;
+    text-align: center;
+}
+
+.Mg{
+    width: 350px;
+    height: 700px;
+    box-shadow: 4px 4px 30px rgba(0,0,0,0.3) ;
+    border-radius: 10px;
+    background-color: wheat;
+    overflow: hidden;
+}
+
+.Mg img{
+    height: 430px;
+    object-fit: cover;
+}
+
+.Mg .memeauthor{
+    margin: 8px;
+}
+.Mg .Headings{
+    border: none;
+    border-left: 4px solid #222;
+    border-right: 4px solid #222;
+    margin: 25px 0;
+    font-size: 20px;
+    padding: 8px 20px;
+    color: #f64d4d;
+    background-color: aliceblue;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.Mg .Headings:hover{
+    padding:8px 36px;
+    border-left: 8px solid #222;
+    border-right: 8px solid #222;
+    letter-spacing: 3px;
+}
